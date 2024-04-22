@@ -17,11 +17,16 @@ const Wrapper = styled.section`
   gap: 20px;
 `
 
+const Hr = styled.hr`
+  border: 0.5px solid var(--color-line);
+`
+
 const Card = ({ info }) => {
   return (
     <Wrapper className='bg-card flex flex-column'>
       <Header image={info.image} name={info.name} id={info.id} />
       <Info description={info.description} value={info.value} daysLeft={info.daysLeft} />
+      <Hr />
     </Wrapper>
   )
 }
