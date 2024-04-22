@@ -216,7 +216,7 @@ Valid keys: `+JSON.stringify(Object.keys(b),null,"  "));var R=me(I,Q,P,j,M+"."+Q
   letter-spacing: -0.5px;
 `,$c=tn.img`
   height: 25px;
-`,Op=({description:e,value:n,daysLeft:t})=>W.jsxs(Vm,{className:"flex flex-column",children:[W.jsx(Bm,{className:"secondary fw-normal flex-1",children:e}),W.jsxs("div",{className:"flex justify-between",children:[W.jsxs("div",{className:"flex align-center gap-1",children:[W.jsx($c,{src:"assets/icons/icon-ethereum.svg",alt:""}),W.jsx("h1",{className:"primary fs-medium",children:n})]}),W.jsxs("div",{className:"flex align-center gap-1",children:[W.jsx($c,{src:"assets/icons/icon-clock.svg",alt:""}),W.jsx("h4",{className:"secondary fw-semibold",children:t})]})]})]});Op.propTypes={description:sn.string.isRequired,value:sn.string.isRequired,daysLeft:sn.string.isRequired};const $m=tn.img`
+`,Op=({description:e,value:n,daysLeft:t})=>W.jsxs(Vm,{className:"flex flex-column",children:[W.jsx(Bm,{className:"secondary fw-normal flex-1",children:e}),W.jsxs("div",{className:"flex justify-between",children:[W.jsxs("div",{className:"flex align-center gap-1",children:[W.jsx($c,{src:"assets/icons/icon-ethereum.svg",alt:""}),W.jsx("h3",{className:"primary",children:n})]}),W.jsxs("div",{className:"flex align-center gap-1",children:[W.jsx($c,{src:"assets/icons/icon-clock.svg",alt:""}),W.jsx("h4",{className:"secondary fw-semibold",children:t})]})]})]});Op.propTypes={description:sn.string.isRequired,value:sn.string.isRequired,daysLeft:sn.string.isRequired};const $m=tn.img`
   width: 35px;
   height: 35px;
   border: 1px solid var(--color-white);
