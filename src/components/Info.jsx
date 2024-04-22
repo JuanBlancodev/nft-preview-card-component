@@ -19,14 +19,14 @@ const Info = ({ description, value, daysLeft }) => {
       <P className='secondary fw-normal flex-1'>{ description }</P>
 
       <div className='flex justify-between'>
-        <span className='flex align-center gap-1'>
+        <div className='flex align-center gap-1'>
           <Img src="assets/icons/icon-ethereum.svg" alt="" />
-          <h3 className='primary'>{ value }</h3>
-        </span>
-        <span className='flex align-center gap-1'>
+          <h2 className='primary fs-medium'>{ value }</h2>
+        </div>
+        <div className='flex align-center gap-1'>
           <Img src="assets/icons/icon-clock.svg" alt="" />
-          <h4 className='secondary fw-semibold'>{ daysLeft }</h4>
-        </span>
+          <h3 className='secondary fw-semibold fs-small'>{ daysLeft }</h3>
+        </div>
       </div>
     </Section>
   )

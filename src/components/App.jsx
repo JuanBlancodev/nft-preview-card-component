@@ -20,11 +20,11 @@ const App = () => {
   }
 
   return (
-    <>
+    <main>
       { data.map((item, index) => (
         <Card info={item} key={index} />
       )) }
-    </>
+    </main>
   )
 }
 
