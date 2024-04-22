@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+:root{
+  /* Fonts */
+  --font-family-main: "Outfit", sans-serif;
+
+  --font-weight-normal: 300;
+  --font-weight-semibold: 400;
+  --font-weight-bold: 600;
+  
+  --font-size-small: 16px;
+  --font-size-medium: 18px;
+  --font-size-large: 20px;
+
+  /* Colors */
+  --color-primary: hsl(215, 51%, 70%);
+  --color-secondary: hsl(178, 100%, 50%);
+
+  --color-bg-main: hsl(217, 54%, 11%);
+  --color-bg-card: hsl(216, 50%, 16%);
+  --color-line: hsl(215, 32%, 27%);
+
+  --color-white: hsl(0, 0%, 100%)
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-family-main);
+}
+
+html, body{
+  height: 100%;
+}
+
+body{
+  font-size: var(--font-size-medium);
+
+  color: var(--color-white);
+  background-color: var(--color-bg-main);
+}
+
+/* Font Weight */
+.fw-normal{
+  font-weight: var(--font-weight-normal);
+}
+
+.fw-semibold{
+  font-weight: var(--font-weight-semibold);
+}
+
+.fw-bold{
+  font-weight: var(--font-weight-bold);
+}
+
+/* Font Size */
+.fs-small{
+  font-size: var(--font-size-small);
+}
+
+.fs-medium{
+  font-size: var(--font-size-medium);
+}
+
+.fs-large{
+  font-size: var(--font-size-large);
+}
+
+/* Colors */
+
+.primary{
+  color: var(--color-primary);
+}
+
+.secondary{
+  color: var(--color-secondary);
+}
+
+.line{
+  color: var(--color-line);
+}
+
+.white{
+  color: var(--color-white);
+}
+
+/* Background Colors */
+.bg-card{
+  background-color: var(--color-bg-card);
+}
