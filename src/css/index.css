@@ -20,7 +20,7 @@
   --color-bg-card: hsl(216, 50%, 16%);
   --color-line: hsl(215, 32%, 27%);
 
-  --color-white: hsl(0, 0%, 100%)
+  --color-white: hsl(0, 0%, 100%);
 }
 
 *{
@@ -95,4 +95,33 @@ p{
 /* Text */
 .text-center{
   text-align: center;
+}
+
+/* Display */
+.flex{
+  display: flex;
+}
+
+/* Flexx */
+.flex-column{
+  flex-direction: column;
+}
+
+.flex-1{
+  flex: 1;
+}
+
+/* Justify */
+.justify-between{
+  justify-content: space-between;
+}
+
+/* Align */
+.align-center{
+  align-items: center;
+}
+
+/* Gap */
+.gap-1{
+  gap: 5px;
 }

@@ -2,6 +2,7 @@ import styled from 'styled-components'
 import PropTypes from 'prop-types'
 
 import Header from './Header'
+import Info from './Info'
 
 const Wrapper = styled.section`
   max-width: 320px;
@@ -12,12 +13,15 @@ const Wrapper = styled.section`
   padding: 25px;
 
   border-radius: 15px;
+
+  gap: 20px;
 `
 
 const Card = ({ info }) => {
   return (
-    <Wrapper className='bg-card'>
+    <Wrapper className='bg-card flex flex-column'>
       <Header image={info.image} name={info.name} id={info.id} />
+      <Info description={info.description} value={info.value} daysLeft={info.daysLeft} />
     </Wrapper>
   )
 }
