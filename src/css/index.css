@@ -26,6 +26,7 @@
 *{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
   font-family: var(--font-family-main);
 }
 
@@ -34,10 +35,12 @@ html, body{
 }
 
 body{
-  font-size: var(--font-size-medium);
-
   color: var(--color-white);
   background-color: var(--color-bg-main);
+}
+
+p{
+  font-size: var(--font-size-medium);
 }
 
 /* Font Weight */
@@ -87,4 +90,9 @@ body{
 /* Background Colors */
 .bg-card{
   background-color: var(--color-bg-card);
+}
+
+/* Text */
+.text-center{
+  text-align: center;
 }
