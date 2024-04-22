@@ -21,6 +21,11 @@
   --color-line: hsl(215, 32%, 27%);
 
   --color-white: hsl(0, 0%, 100%);
+
+  /* Spacing */
+  --spacing-1: 5px;
+  --spacing-2: 10px;
+  --spacing-3: 15px;
 }
 
 *{
@@ -119,5 +124,13 @@ p{
 
 /* Gap */
 .gap-1{
-  gap: 5px;
+  gap: var(--spacing-1);
+}
+
+.gap-2{
+  gap: var(--spacing-2);
+}
+
+.gap-3{
+  gap: var(--spacing-3);
 }
