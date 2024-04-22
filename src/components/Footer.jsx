@@ -12,8 +12,8 @@ const Footer = ({ firstName, lastName, avatar }) => {
   return (
     <footer className='flex align-center gap-3'>
       <Avatar src={`assets/avatar/${avatar}`} alt="" />
-      <p className='primary'>
-        Creation of <span className='white'>{firstName} {lastName}</span>
+      <p className='secondary'>
+        Creation of <span className='white hover'>{firstName} {lastName}</span>
       </p>
     </footer>
   )

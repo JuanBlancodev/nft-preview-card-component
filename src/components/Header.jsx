@@ -11,7 +11,7 @@ const Header = ({ image, name, id }) => {
   return (
     <HeaderContainer>
       <Image image={image} />
-      <h1 className='fs-large'> { name } #{id} </h1>
+      <h1 className='fs-large hover'> { name } #{id} </h1>
     </HeaderContainer>
   )
 }

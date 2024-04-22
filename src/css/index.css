@@ -13,8 +13,8 @@
   --font-size-large: 25px;
 
   /* Colors */
-  --color-primary: hsl(215, 51%, 70%);
-  --color-secondary: hsl(178, 100%, 50%);
+  --color-primary: hsl(178, 100%, 50%);
+  --color-secondary: hsl(215, 51%, 70%);
 
   --color-bg-main: hsl(217, 54%, 11%);
   --color-bg-card: hsl(216, 50%, 16%);
@@ -113,6 +113,10 @@ p{
 }
 
 /* Justify */
+.justify-center{
+  justify-content: center;
+}
+
 .justify-between{
   justify-content: space-between;
 }
@@ -133,4 +137,10 @@ p{
 
 .gap-3{
   gap: var(--spacing-3);
+}
+
+/* Other */
+.hover:hover{
+  color: var(--color-primary);
+  cursor: pointer;
 }

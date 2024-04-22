@@ -16,16 +16,16 @@ const Img = styled.img`
 const Info = ({ description, value, daysLeft }) => {
   return (
     <Section className='flex flex-column'>
-      <P className='primary fw-normal flex-1'>{ description }</P>
+      <P className='secondary fw-normal flex-1'>{ description }</P>
 
       <div className='flex justify-between'>
         <span className='flex align-center gap-1'>
           <Img src="assets/icons/icon-ethereum.svg" alt="" />
-          <h3 className='secondary'>{ value }</h3>
+          <h3 className='primary'>{ value }</h3>
         </span>
         <span className='flex align-center gap-1'>
           <Img src="assets/icons/icon-clock.svg" alt="" />
-          <h4 className='primary fw-semibold'>{ daysLeft }</h4>
+          <h4 className='secondary fw-semibold'>{ daysLeft }</h4>
         </span>
       </div>
     </Section>

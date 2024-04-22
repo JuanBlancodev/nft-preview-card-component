@@ -15,7 +15,7 @@ const Wrapper = styled.section`
 
   border-radius: 15px;
 
-  gap: 20px;
+  gap: 15px;
 `
 
 const Hr = styled.hr`
