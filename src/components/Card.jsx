@@ -11,13 +11,13 @@ const Wrapper = styled.section`
   margin: 60px auto;
   padding: 25px;
 
-  border-radius: 20px;
+  border-radius: 15px;
 `
 
 const Card = ({ info }) => {
   return (
     <Wrapper className='bg-card'>
-      <Header name={info.name} cryptoImage={info.image} />
+      <Header image={info.image} name={info.name} id={info.id} />
     </Wrapper>
   )
 }
